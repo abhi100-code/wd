@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Field Styles */
+.form-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Textarea Styles */
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button Styles */
+.submit-btn {
+    padding: 12px 20px;
+    background-color: #0d0696;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Submit Button */
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Unique ID Styles for Contact Form */
+#contactForm {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Additional Padding and Margin Adjustments */
+#name, #email, #message {
+    margin-top: 10px;
+}
+
+/* Optional Styling for Form's Input Fields */
+.form-field:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
